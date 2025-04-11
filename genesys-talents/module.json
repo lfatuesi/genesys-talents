@@ -1,0 +1,23 @@
+{
+  "name": "genesys-talents",
+  "title": "Genesys Talents (Custom)",
+  "description": "A compendium of Genesys talents for use with the StarWarsFFG system in Foundry VTT.",
+  "version": "1.0.0",
+  "author": "lfatuesi",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "system": "starwarsffg",
+  "url": "https://github.com/lfatuesi/genesys-talents",
+  "manifest": "https://raw.githubusercontent.com/lfatuesi/genesys-talents/main/module.json",
+  "download": "https://github.com/lfatuesi/genesys-talents/archive/refs/heads/main.zip",
+  "packs": [
+    {
+      "name": "genesys-talents",
+      "label": "Genesys Talents",
+      "path": "packs/talents.db",
+      "type": "Item",
+      "system": "starwarsffg",
+      "private": false
+    }
+  ]
+}
